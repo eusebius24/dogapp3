@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.dogDrawing {
+    height: 100px;
+}
+
+h1, h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#numOfPics {
+    width: 40px;
+}
+
+.input {
+    margin-bottom: 5px;
+}
+
+#submit {
+    width: 200px;
+    height: 50px;
+    background-color: #999999;
+    color: #fff;
+    border-radius: 5%;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#submit:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+.dogSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.results-img {
+    max-width: 200px;
+    margin: 0 10px 10px 0;
+    align-items: flex-start;
+}
